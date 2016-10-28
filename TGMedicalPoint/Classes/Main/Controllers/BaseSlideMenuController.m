@@ -21,6 +21,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.option.hideStatusBar=NO;
+    self.option.leftViewWidth = 220;
+    self.option.leftBezelWidth = 16.0;
     // Do any additional setup after loading the view.
 }
 
