@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57A0B1BD1DC318FD0094C7A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A0B1BC1DC318FD0094C7A0 /* main.m */; };
+		57A0B1C01DC318FD0094C7A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A0B1BF1DC318FD0094C7A0 /* AppDelegate.m */; };
+		57A0B1C31DC318FD0094C7A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A0B1C21DC318FD0094C7A0 /* ViewController.m */; };
+		57A0B1C61DC318FD0094C7A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A0B1C41DC318FD0094C7A0 /* Main.storyboard */; };
+		57A0B1C81DC318FE0094C7A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57A0B1C71DC318FE0094C7A0 /* Assets.xcassets */; };
+		57A0B1CB1DC318FE0094C7A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A0B1C91DC318FE0094C7A0 /* LaunchScreen.storyboard */; };
+		57A0B1D61DC318FE0094C7A0 /* TGMedicalPointTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A0B1D51DC318FE0094C7A0 /* TGMedicalPointTests.m */; };
+		57A0B1E11DC318FE0094C7A0 /* TGMedicalPointUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A0B1E01DC318FE0094C7A0 /* TGMedicalPointUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57A0B1D21DC318FE0094C7A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57A0B1B01DC318FD0094C7A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57A0B1B71DC318FD0094C7A0;
+			remoteInfo = TGMedicalPoint;
+		};
+		57A0B1DD1DC318FE0094C7A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57A0B1B01DC318FD0094C7A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57A0B1B71DC318FD0094C7A0;
+			remoteInfo = TGMedicalPoint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57A0B1B81DC318FD0094C7A0 /* TGMedicalPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGMedicalPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A0B1BC1DC318FD0094C7A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57A0B1BE1DC318FD0094C7A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57A0B1BF1DC318FD0094C7A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57A0B1C11DC318FD0094C7A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57A0B1C21DC318FD0094C7A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57A0B1C51DC318FD0094C7A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57A0B1C71DC318FE0094C7A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57A0B1CA1DC318FE0094C7A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57A0B1CC1DC318FE0094C7A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57A0B1D11DC318FE0094C7A0 /* TGMedicalPointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGMedicalPointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A0B1D51DC318FE0094C7A0 /* TGMedicalPointTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGMedicalPointTests.m; sourceTree = "<group>"; };
+		57A0B1D71DC318FE0094C7A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57A0B1DC1DC318FE0094C7A0 /* TGMedicalPointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGMedicalPointUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A0B1E01DC318FE0094C7A0 /* TGMedicalPointUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGMedicalPointUITests.m; sourceTree = "<group>"; };
+		57A0B1E21DC318FE0094C7A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57A0B1B51DC318FD0094C7A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A0B1CE1DC318FE0094C7A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A0B1D91DC318FE0094C7A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57A0B1AF1DC318FD0094C7A0 = {
+			isa = PBXGroup;
+			children = (
+				57A0B1BA1DC318FD0094C7A0 /* TGMedicalPoint */,
+				57A0B1D41DC318FE0094C7A0 /* TGMedicalPointTests */,
+				57A0B1DF1DC318FE0094C7A0 /* TGMedicalPointUITests */,
+				57A0B1B91DC318FD0094C7A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57A0B1B91DC318FD0094C7A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57A0B1B81DC318FD0094C7A0 /* TGMedicalPoint.app */,
+				57A0B1D11DC318FE0094C7A0 /* TGMedicalPointTests.xctest */,
+				57A0B1DC1DC318FE0094C7A0 /* TGMedicalPointUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57A0B1BA1DC318FD0094C7A0 /* TGMedicalPoint */ = {
+			isa = PBXGroup;
+			children = (
+				57A0B1BE1DC318FD0094C7A0 /* AppDelegate.h */,
+				57A0B1BF1DC318FD0094C7A0 /* AppDelegate.m */,
+				57A0B1C11DC318FD0094C7A0 /* ViewController.h */,
+				57A0B1C21DC318FD0094C7A0 /* ViewController.m */,
+				57A0B1C41DC318FD0094C7A0 /* Main.storyboard */,
+				57A0B1C71DC318FE0094C7A0 /* Assets.xcassets */,
+				57A0B1C91DC318FE0094C7A0 /* LaunchScreen.storyboard */,
+				57A0B1CC1DC318FE0094C7A0 /* Info.plist */,
+				57A0B1BB1DC318FD0094C7A0 /* Supporting Files */,
+			);
+			path = TGMedicalPoint;
+			sourceTree = "<group>";
+		};
+		57A0B1BB1DC318FD0094C7A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57A0B1BC1DC318FD0094C7A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57A0B1D41DC318FE0094C7A0 /* TGMedicalPointTests */ = {
+			isa = PBXGroup;
+			children = (
+				57A0B1D51DC318FE0094C7A0 /* TGMedicalPointTests.m */,
+				57A0B1D71DC318FE0094C7A0 /* Info.plist */,
+			);
+			path = TGMedicalPointTests;
+			sourceTree = "<group>";
+		};
+		57A0B1DF1DC318FE0094C7A0 /* TGMedicalPointUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57A0B1E01DC318FE0094C7A0 /* TGMedicalPointUITests.m */,
+				57A0B1E21DC318FE0094C7A0 /* Info.plist */,
+			);
+			path = TGMedicalPointUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57A0B1B71DC318FD0094C7A0 /* TGMedicalPoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57A0B1E51DC318FE0094C7A0 /* Build configuration list for PBXNativeTarget "TGMedicalPoint" */;
+			buildPhases = (
+				57A0B1B41DC318FD0094C7A0 /* Sources */,
+				57A0B1B51DC318FD0094C7A0 /* Frameworks */,
+				57A0B1B61DC318FD0094C7A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGMedicalPoint;
+			productName = TGMedicalPoint;
+			productReference = 57A0B1B81DC318FD0094C7A0 /* TGMedicalPoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57A0B1D01DC318FE0094C7A0 /* TGMedicalPointTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57A0B1E81DC318FE0094C7A0 /* Build configuration list for PBXNativeTarget "TGMedicalPointTests" */;
+			buildPhases = (
+				57A0B1CD1DC318FE0094C7A0 /* Sources */,
+				57A0B1CE1DC318FE0094C7A0 /* Frameworks */,
+				57A0B1CF1DC318FE0094C7A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57A0B1D31DC318FE0094C7A0 /* PBXTargetDependency */,
+			);
+			name = TGMedicalPointTests;
+			productName = TGMedicalPointTests;
+			productReference = 57A0B1D11DC318FE0094C7A0 /* TGMedicalPointTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57A0B1DB1DC318FE0094C7A0 /* TGMedicalPointUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57A0B1EB1DC318FE0094C7A0 /* Build configuration list for PBXNativeTarget "TGMedicalPointUITests" */;
+			buildPhases = (
+				57A0B1D81DC318FE0094C7A0 /* Sources */,
+				57A0B1D91DC318FE0094C7A0 /* Frameworks */,
+				57A0B1DA1DC318FE0094C7A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57A0B1DE1DC318FE0094C7A0 /* PBXTargetDependency */,
+			);
+			name = TGMedicalPointUITests;
+			productName = TGMedicalPointUITests;
+			productReference = 57A0B1DC1DC318FE0094C7A0 /* TGMedicalPointUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57A0B1B01DC318FD0094C7A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = wsl;
+				TargetAttributes = {
+					57A0B1B71DC318FD0094C7A0 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					57A0B1D01DC318FE0094C7A0 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57A0B1B71DC318FD0094C7A0;
+					};
+					57A0B1DB1DC318FE0094C7A0 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57A0B1B71DC318FD0094C7A0;
+					};
+				};
+			};
+			buildConfigurationList = 57A0B1B31DC318FD0094C7A0 /* Build configuration list for PBXProject "TGMedicalPoint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57A0B1AF1DC318FD0094C7A0;
+			productRefGroup = 57A0B1B91DC318FD0094C7A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57A0B1B71DC318FD0094C7A0 /* TGMedicalPoint */,
+				57A0B1D01DC318FE0094C7A0 /* TGMedicalPointTests */,
+				57A0B1DB1DC318FE0094C7A0 /* TGMedicalPointUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57A0B1B61DC318FD0094C7A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A0B1CB1DC318FE0094C7A0 /* LaunchScreen.storyboard in Resources */,
+				57A0B1C81DC318FE0094C7A0 /* Assets.xcassets in Resources */,
+				57A0B1C61DC318FD0094C7A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A0B1CF1DC318FE0094C7A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A0B1DA1DC318FE0094C7A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57A0B1B41DC318FD0094C7A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A0B1C31DC318FD0094C7A0 /* ViewController.m in Sources */,
+				57A0B1C01DC318FD0094C7A0 /* AppDelegate.m in Sources */,
+				57A0B1BD1DC318FD0094C7A0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A0B1CD1DC318FE0094C7A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A0B1D61DC318FE0094C7A0 /* TGMedicalPointTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A0B1D81DC318FE0094C7A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A0B1E11DC318FE0094C7A0 /* TGMedicalPointUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57A0B1D31DC318FE0094C7A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57A0B1B71DC318FD0094C7A0 /* TGMedicalPoint */;
+			targetProxy = 57A0B1D21DC318FE0094C7A0 /* PBXContainerItemProxy */;
+		};
+		57A0B1DE1DC318FE0094C7A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57A0B1B71DC318FD0094C7A0 /* TGMedicalPoint */;
+			targetProxy = 57A0B1DD1DC318FE0094C7A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57A0B1C41DC318FD0094C7A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57A0B1C51DC318FD0094C7A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57A0B1C91DC318FE0094C7A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57A0B1CA1DC318FE0094C7A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57A0B1E31DC318FE0094C7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57A0B1E41DC318FE0094C7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57A0B1E61DC318FE0094C7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TGMedicalPoint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsl.victor.TGMedicalPoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57A0B1E71DC318FE0094C7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TGMedicalPoint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsl.victor.TGMedicalPoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		57A0B1E91DC318FE0094C7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TGMedicalPointTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsl.victor.TGMedicalPointTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGMedicalPoint.app/TGMedicalPoint";
+			};
+			name = Debug;
+		};
+		57A0B1EA1DC318FE0094C7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TGMedicalPointTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsl.victor.TGMedicalPointTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGMedicalPoint.app/TGMedicalPoint";
+			};
+			name = Release;
+		};
+		57A0B1EC1DC318FE0094C7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TGMedicalPointUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsl.victor.TGMedicalPointUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TGMedicalPoint;
+			};
+			name = Debug;
+		};
+		57A0B1ED1DC318FE0094C7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TGMedicalPointUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsl.victor.TGMedicalPointUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TGMedicalPoint;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57A0B1B31DC318FD0094C7A0 /* Build configuration list for PBXProject "TGMedicalPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A0B1E31DC318FE0094C7A0 /* Debug */,
+				57A0B1E41DC318FE0094C7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57A0B1E51DC318FE0094C7A0 /* Build configuration list for PBXNativeTarget "TGMedicalPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A0B1E61DC318FE0094C7A0 /* Debug */,
+				57A0B1E71DC318FE0094C7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57A0B1E81DC318FE0094C7A0 /* Build configuration list for PBXNativeTarget "TGMedicalPointTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A0B1E91DC318FE0094C7A0 /* Debug */,
+				57A0B1EA1DC318FE0094C7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57A0B1EB1DC318FE0094C7A0 /* Build configuration list for PBXNativeTarget "TGMedicalPointUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A0B1EC1DC318FE0094C7A0 /* Debug */,
+				57A0B1ED1DC318FE0094C7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57A0B1B01DC318FD0094C7A0 /* Project object */;
+}
