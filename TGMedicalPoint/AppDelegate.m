@@ -34,7 +34,7 @@
  
     BaseNavigationViewController *baseNavVc=[[BaseNavigationViewController alloc] initWithRootViewController:homeVc];
     
-    baseLeftVc.mainViewControler = baseNavVc;
+    baseLeftVc.homeVc = baseNavVc;
 
     
     BaseSlideMenuController *slidemenuVC=[[BaseSlideMenuController alloc] initWithMainViewController:baseNavVc leftMenuViewController:baseLeftVc];

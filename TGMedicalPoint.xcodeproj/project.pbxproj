@@ -31,7 +31,9 @@
 		57A0B2471DC320E50094C7A0 /* TGHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A0B2451DC320E50094C7A0 /* TGHomeViewController.m */; };
 		57A0B2481DC320E50094C7A0 /* TGHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57A0B2461DC320E50094C7A0 /* TGHomeViewController.xib */; };
 		57A0B24B1DC321A30094C7A0 /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A0B24A1DC321A30094C7A0 /* BaseNavigationViewController.m */; };
-		57A0B24E1DC323DA0094C7A0 /* BaseLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A0B24D1DC323DA0094C7A0 /* BaseLeftViewController.m */; };
+		57A0B2521DC34C950094C7A0 /* BaseLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A0B2501DC34C950094C7A0 /* BaseLeftViewController.m */; };
+		57A0B2531DC34C950094C7A0 /* BaseLeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57A0B2511DC34C950094C7A0 /* BaseLeftViewController.xib */; };
+		57A0B2561DC351F20094C7A0 /* iconbg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57A0B2551DC351F20094C7A0 /* iconbg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,8 +99,10 @@
 		57A0B2461DC320E50094C7A0 /* TGHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TGHomeViewController.xib; sourceTree = "<group>"; };
 		57A0B2491DC321A30094C7A0 /* BaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
 		57A0B24A1DC321A30094C7A0 /* BaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
-		57A0B24C1DC323DA0094C7A0 /* BaseLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseLeftViewController.h; sourceTree = "<group>"; };
-		57A0B24D1DC323DA0094C7A0 /* BaseLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseLeftViewController.m; sourceTree = "<group>"; };
+		57A0B24F1DC34C950094C7A0 /* BaseLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseLeftViewController.h; sourceTree = "<group>"; };
+		57A0B2501DC34C950094C7A0 /* BaseLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseLeftViewController.m; sourceTree = "<group>"; };
+		57A0B2511DC34C950094C7A0 /* BaseLeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseLeftViewController.xib; sourceTree = "<group>"; };
+		57A0B2551DC351F20094C7A0 /* iconbg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iconbg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +239,7 @@
 		57A0B1F31DC31C900094C7A0 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				57A0B2541DC350B00094C7A0 /* Resourses */,
 				57A0B1F41DC31C900094C7A0 /* CommonLib */,
 				57A0B2071DC31C900094C7A0 /* Controllers */,
 				57A0B2081DC31C900094C7A0 /* Model */,
@@ -289,8 +294,9 @@
 				57A0B2211DC31E630094C7A0 /* BaseSlideMenuController.m */,
 				57A0B2491DC321A30094C7A0 /* BaseNavigationViewController.h */,
 				57A0B24A1DC321A30094C7A0 /* BaseNavigationViewController.m */,
-				57A0B24C1DC323DA0094C7A0 /* BaseLeftViewController.h */,
-				57A0B24D1DC323DA0094C7A0 /* BaseLeftViewController.m */,
+				57A0B24F1DC34C950094C7A0 /* BaseLeftViewController.h */,
+				57A0B2501DC34C950094C7A0 /* BaseLeftViewController.m */,
+				57A0B2511DC34C950094C7A0 /* BaseLeftViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -411,6 +417,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		57A0B2541DC350B00094C7A0 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				57A0B2551DC351F20094C7A0 /* iconbg.jpg */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -520,7 +534,9 @@
 				57A0B2481DC320E50094C7A0 /* TGHomeViewController.xib in Resources */,
 				57A0B23E1DC320750094C7A0 /* TGMeViewController.xib in Resources */,
 				57A0B1CB1DC318FE0094C7A0 /* LaunchScreen.storyboard in Resources */,
+				57A0B2561DC351F20094C7A0 /* iconbg.jpg in Resources */,
 				57A0B2341DC320530094C7A0 /* TGCheckViewController.xib in Resources */,
+				57A0B2531DC34C950094C7A0 /* BaseLeftViewController.xib in Resources */,
 				57A0B2431DC3209A0094C7A0 /* TGSymptomViewController.xib in Resources */,
 				57A0B1C81DC318FE0094C7A0 /* Assets.xcassets in Resources */,
 			);
@@ -562,7 +578,7 @@
 				57A0B23D1DC320750094C7A0 /* TGMeViewController.m in Sources */,
 				57A0B2121DC31C900094C7A0 /* UITableView+SlideMenuControllerOC.m in Sources */,
 				57A0B20F1DC31C900094C7A0 /* UIColor+SlideMenuControllerOC.m in Sources */,
-				57A0B24E1DC323DA0094C7A0 /* BaseLeftViewController.m in Sources */,
+				57A0B2521DC34C950094C7A0 /* BaseLeftViewController.m in Sources */,
 				57A0B2471DC320E50094C7A0 /* TGHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

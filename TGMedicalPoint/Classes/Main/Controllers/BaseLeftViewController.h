@@ -8,10 +8,36 @@
 
 #import <UIKit/UIKit.h>
 
+typedef enum : NSInteger{
+    LeftMenuHome = 0,
+    LeftMenuCheck,
+    LeftMenuSymptom,
+    LeftMenuOne,
+    LeftMenuTwo,
+    LeftMenuThree,
+    LeftMenuFour,
+    LeftMenuFive
+} LeftMenu;
+
+
 @interface BaseLeftViewController : UIViewController
 
+@property (retain, nonatomic) UIViewController *homeVc;
+
+@property (retain, nonatomic) UIViewController *checkVc;
+
+@property (retain, nonatomic) UIViewController *symptomVc;
+
+@property (retain, nonatomic) UIViewController *oneVc;
+
+@property (retain, nonatomic) UIViewController *twoVc;
+
+@property (retain, nonatomic) UIViewController *threeVc;
+
+@property (retain, nonatomic) UIViewController *fourVc;
+
+@property (retain, nonatomic) UIViewController *fiveVc;
 
 
-@property (retain, nonatomic) UIViewController *mainViewControler;
 
 @end
