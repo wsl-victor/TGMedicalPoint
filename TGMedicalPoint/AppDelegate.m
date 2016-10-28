@@ -7,16 +7,50 @@
 //
 
 #import "AppDelegate.h"
+#import "BaseSlideMenuController.h"
+#import "BaseNavigationViewController.h"
+#import "BaseLeftViewController.h"
+#import "TGHomeViewController.h"
+#import "TGMeViewController.h"
 
 @interface AppDelegate ()
+
+@property (nonatomic,weak) BaseLeftViewController *baseLeftVc;
+
+@property (nonatomic,weak) TGHomeViewController *homeVc;
+
+
 
 @end
 
 @implementation AppDelegate
 
 
+-(void)createMenuView
+{
+    BaseLeftViewController *baseLeftVc=[[BaseLeftViewController alloc] init];
+    TGHomeViewController *homeVc=[[TGHomeViewController alloc] init];
+    self.homeVc=homeVc;
+ 
+    BaseNavigationViewController *baseNavVc=[[BaseNavigationViewController alloc] initWithRootViewController:homeVc];
+    
+    baseLeftVc.mainViewControler = baseNavVc;
+
+    
+    BaseSlideMenuController *slidemenuVC=[[BaseSlideMenuController alloc] initWithMainViewController:baseNavVc leftMenuViewController:baseLeftVc];
+    slidemenuVC.automaticallyAdjustsScrollViewInsets = YES;
+    slidemenuVC.delegate = homeVc;
+    self.window=[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor colorWithRed:236.0 green:238.0 blue:241.0 alpha:1.0];
+   
+
+    self.window.rootViewController = slidemenuVC;
+    [self.window makeKeyAndVisible];
+
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [self createMenuView];
     return YES;
 }
 

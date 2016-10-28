@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TGMeViewController.h
 //  TGMedicalPoint
 //
 //  Created by victor on 2016/10/28.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TGMeViewController : UIViewController
 
 @end
-
